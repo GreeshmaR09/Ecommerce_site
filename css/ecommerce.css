@@ -1,0 +1,553 @@
+* {
+	padding-left: 0px;
+	padding-right: 0px;
+	box-sizing: border-box;
+}
+.container{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.item-icon {
+	cursor: pointer;
+	font-size: 17px;
+	font-family: 'Noto Sans';
+}
+
+.container-total {
+	padding: 15px 70px;
+}
+
+.container-input {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: rgb(243, 241, 241);
+}
+
+.search-bar {
+	border: none;
+	padding: 5px 70px 5px 0px;
+	background-color: rgb(243, 241, 241);
+	font-family: sans-serif;
+}
+input[type=text]::placeholder{
+	font-size: 12px;
+	
+}
+.icon {
+	padding: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.dropdown {
+	border: none;
+	padding: 5px;
+	background-color: rgb(243, 241, 241);
+	color: rgb(144, 144, 144);
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.divider {
+	width: 1px;
+	height: 20px;
+	background-color: #ccc;
+	margin: 0 10px;
+}
+
+.container-nav {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	color: white;
+	gap: 250px;
+	/*justify-content: space-between;*/
+	padding: 5px 100px;
+
+}
+.iconwidth{
+	color: white;
+}
+
+
+.unread {
+	color: white;
+	text-decoration: none;
+	padding: 2px 2px;
+	position: relative;
+	display: inline-block;
+	border-radius: 2px;
+  }
+  
+  .badge {
+	position: absolute;
+	top: -17px;
+	right: -15px;
+	padding: 5px 8px;
+	border-radius: 50%;
+	background-color: red;
+	color: white;
+  }
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.fa-bars {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.nav-dropdown {
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.nav-small {
+	background-color: black;
+	color: white;
+	border: none;
+
+}
+
+ul.nav-ul {
+	display: flex;
+	list-style-type: none;
+	gap: 40px;
+}
+
+nav {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+.gallery-item {
+	width: 300px;
+	height: auto;
+	box-sizing: border-box;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: auto;
+}
+.bottom{
+	margin-top: 50px;
+}
+
+.caption {
+	text-align: center;
+	padding: 15px;
+}
+
+.bg-image {
+	width: 1050px;
+	height: 630px;
+	background-color: rgb(243, 241, 241);
+
+}
+
+.face-container {
+	display: flex;
+	position: relative;
+	z-index: -1;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.overlay-text {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 200px;
+	background-color: rgb(241, 239, 239);
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+
+}
+
+.left-bg {
+	width: 450px;
+	height: 630px;
+	background-color: rgb(250, 248, 248);
+}
+
+.sideways-text {
+    transform: rotate(270deg);
+    position: absolute;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+	font-family: sans-serif;
+	
+}
+.arrow{
+	width: 2%!important;
+	padding-right: 15px;
+}
+.textside li{
+ margin-left: 60px;
+}
+
+.sideways-text ul{
+	display: flex;
+	gap:45px;
+	margin-left: -400px!important;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.tagline {
+	font-size: 70px;
+	margin-top: -15px!important;
+	font-family: 'Oregano', sans-serif;
+}
+.overlay-text h4{
+	font-size: 18px;
+}
+.top{
+	margin-top: 30px;
+}
+.button {
+	display: block;
+	border-radius: 5px;
+	background-color: black;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.button2{
+	display: block;
+	background-color: black;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px 20px;
+	margin-top: 130px;
+	cursor: pointer;
+}
+
+.image-div {
+	overflow: hidden;
+	width: 330px;
+	height: 330px;
+}
+
+.featured {
+	width: 450px;
+	height: 450px;
+	overflow: hidden;
+
+}
+
+.container-relative {
+	position: relative;
+  }
+  
+  .image-hover {
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	
+  }
+
+  .button-featured{
+	display: flex;
+	justify-content: center;
+  }
+  .button-featured button{
+    padding: 10px 25px!important;
+	border:black solid 2px;
+	border-radius: 10px;
+  }
+  .overlay-btn{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+  }
+  .featured:hover{
+	background-color: black;
+  }
+
+  
+  .container-relative:hover .image-hover {
+	opacity: 0.3;
+	
+  }
+
+  .container-relative:hover .overlay-btn{
+	opacity: 1;
+	
+  }
+
+
+.price {
+	margin-top: 5px;
+}
+
+.load-more {
+	display: block;
+	border-radius: 5px;
+	border: black solid 1px;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+	background-color: white !important;
+}
+.load-more:hover{
+	background-color: black!important;
+	color: white;
+
+}
+
+.container-center {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+hr {
+	margin: 20px 150px;
+}
+
+.features-list{
+	width:200px;
+	height:auto;
+	
+
+}
+.features-list img{
+	width:70px;
+	height:auto;
+}
+.features-list p{
+	font-family: sans-serif;
+}
+.features-center{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+
+}
+.word{
+	font-size: 19px;
+	margin: 20px;
+	text-align: center;
+	
+}
+.image-size{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+p{
+	font-size: 10px;
+	text-align: center;
+}
+.banner{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.image-banner img{
+	width:600px;
+	height: auto;
+
+}
+.tagline-banner{
+	text-align: center;
+	padding:100px;
+}
+.bg{
+	background-color: rgb(243, 241, 241);
+	margin: 100px 150px;
+}
+
+.shop-now {
+	display: block;
+	border-radius: 5px;
+	background-color: black;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size:15px;
+	padding: 17px 40px;
+	margin: 10px;
+	cursor: pointer;
+
+}
+.tagline-item{
+	font-size: 50px;
+	margin: 2px;
+	
+}
+.center-btn{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.headline{
+	font-size: 40px;
+	font-family: 'Noto Sans';
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: rgb(92, 92, 92);
+
+}
+.description-review{
+	font-family: "Geon Condensed";
+	font-size: 23px;
+	color:rgb(66, 66, 66);
+	text-align: center;
+	margin-top: 10px;
+}
+.name{
+	font-family: "Geon Condensed";
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.icon-dot{
+	display: flex;
+	flex-direction:row ;
+	gap: 15px;
+	justify-content: center;
+}
+.clr{
+    color:lightgray;
+	margin-bottom: 80px;
+}
+.collage-photos{
+	display: flex;
+	gap:10px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.sub-collage{
+	display: flex;
+	gap:10px;
+}
+.sub-collage-item{
+	width:250px;
+	height: auto;
+	overflow: hidden;
+}
+.mainimage{
+	width:500px;
+	height: auto;
+	
+}
+.sub-collage img{
+	width: 100%;
+	height: auto;
+}
+.collage-item{
+	display: flex;
+	flex-direction:column ;
+	gap:5px;
+}
+.footer{
+	background-color: black;
+	color:white;
+	font-family: sans-serif;
+}
+ul{
+	list-style-type:none;
+}
+.head-li{
+   font-size: 22px!important;
+   margin-bottom: 20px!important;
+}
+.space li{
+	margin-bottom: 17px;
+	font-size: 15px;
+}
+.footer-ul{
+	display: flex;
+	gap:100px;
+	padding :50px 100px;
+
+}
+.end-footer{
+	border-top:1px rgb(100, 100, 100) solid;
+	font-size: 17px;
+	padding :50px 100px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-between;
+}
+.color{
+	color:white;
+}
+.sizepayment{
+	width: 30px;
+	height: auto;
+}
+.sizepayment2{
+	margin-top: 3px;
+	width:40px;
+	height: auto;
+}
+.sizepayment3{
+	width:30px;
+	height: auto;
+}
+.inline{
+	margin-top: 0px!important;
+	display: flex;
+	gap:10px;
+}
+.dropdown-footer{
+	background-color: black;
+	color: white;
+	border: none;
+	padding-bottom: 5px;
+	border-bottom: solid 2px white;
+}
